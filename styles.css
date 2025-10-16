@@ -1,0 +1,35 @@
+body {
+    background: rgb(18, 51, 197);
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin: 3%;
+}
+
+button {
+    background: rgb(5, 22, 180);
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    max-width: 95%;
+    text-align: center;
+}
+
+img{
+    max-width: 40%;
+}
